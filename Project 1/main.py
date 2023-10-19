@@ -29,3 +29,5 @@ def Main():
             print(f"things is {things} price is {prices}")
             sleep(60)
             break
+
+Main()
