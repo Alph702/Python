@@ -26,7 +26,8 @@ def Main():
 
             print(f"The price of {thing} is {price}")
         else:
-            print(f"things is {things} price is {prices}")
+            for Thing in things:
+                print(f"things is {Thing}")
             sleep(60)
             break
 
