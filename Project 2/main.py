@@ -1,3 +1,5 @@
+__author__ = "Amanat"
+
 class Question:
     def __init__(self, Questions: list[str]) -> None:
         self.questions = Questions
